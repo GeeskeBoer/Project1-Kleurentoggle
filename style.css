@@ -1,0 +1,19 @@
+li {
+  display: block;
+  border: 1px solid grey;
+  max-width: 100px;
+  padding-left: 10px;
+}
+ul {
+  padding-left: 0px;
+  margin-top: 0px;
+}
+
+.btn-toggle-nav {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.dropDown {
+  visibility: hidden;
+}

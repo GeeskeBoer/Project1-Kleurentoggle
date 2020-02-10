@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body id="body">
+    <img
+      id="burger"
+      class="btn-toggle-nav"
+      onclick="toggleNav()"
+      src="menu.png"
+      alt="Hamburger"
+    />
+    <div class="dropDown" id="dropDownUl">
+      <ul>
+        <li>
+          <a href="#" id="mijnHome" onclick="changeColor('white')">Home</a>
+        </li>
+        <li>
+          <a href="#" id="mijnRood" onclick="changeColor('red')">Rood</a>
+        </li>
+        <li>
+          <a href="#" id="mijnBlauw" onclick="changeColor('blue')">Blauw</a>
+        </li>
+        <li>
+          <a href="#" id="mijnGeel" onclick="changeColor('yellow')">Geel</a>
+        </li>
+        <li>
+          <a href="#" id="mijnPaars" onclick="changeColor('purple')">Paars</a>
+        </li>
+      </ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
