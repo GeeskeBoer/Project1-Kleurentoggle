@@ -2,20 +2,24 @@ document.write("Colour toggle");
 
 function changeColor(color) {
   document.body.style.background = color;
+  getSidebarUl.style.visibility = "hidden";
+  function changeText() {
+    textColor.textContent = "kleur";
+  }
 }
 
-let toggleNavStatus = false; 
+const toggleNavStatus = false;
+const getSidebar = document.querySelector(".dropDown");
+const getSidebarUl = document.querySelector(".dropDown ul");
+const getSidebarLinks = document.querySelectorAll(".dropDown a");
 
-let toggleNav = function(){ 
-    let getSidebar = document.querySelector(".dropDown");
-    let getSidebarUl = document.querySelector(".dropDown ul");
-    let getSidebarLinks = document.querySelectorAll(".dropDown a");
-    }
-​
-if (toggleNavStatus === false) {
+const toggleNav = function() {
+  if (toggleNavStatus === false) {
     getSidebarUl.style.visibility = "visible";
-    let arrayLength = getSidebarLinks.length; 
-    for (let i=0; i <arrayLength; i++){
-        getSidebarLinks[i].style.opacity ="1";
-   }else {
-    toggleNavStatus = true; } } 
+    let arrayLength = getSidebarLinks.length;
+  }
+};
+
+// let toggleNoNav = function() {
+//   getSidebarUl.style.visibility = "hidden";
+// };

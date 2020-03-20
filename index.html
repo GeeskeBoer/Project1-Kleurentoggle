@@ -8,26 +8,36 @@
     <img
       id="burger"
       class="btn-toggle-nav"
-      onclick="toggleNav()"
+      onmousemove="toggleNav()"
       src="menu.png"
       alt="Hamburger"
     />
     <div class="dropDown" id="dropDownUl">
       <ul>
         <li>
-          <a href="#" id="mijnHome" onclick="changeColor('white')">Home</a>
+          <a href="#" id="mijnHome" onclick="changeColor('white')"
+            ><input type="radio" name="menu" />Home</a
+          >
         </li>
         <li>
-          <a href="#" id="mijnRood" onclick="changeColor('red')">Rood</a>
+          <a href="#" id="mijnRood" onclick="changeColor('red')">
+            <input type="radio" name="menu" />Rood</a
+          >
         </li>
         <li>
-          <a href="#" id="mijnBlauw" onclick="changeColor('blue')">Blauw</a>
+          <a href="#" id="mijnBlauw" onclick="changeColor('blue')"
+            ><input type="radio" name="menu" />Blauw</a
+          >
         </li>
         <li>
-          <a href="#" id="mijnGeel" onclick="changeColor('yellow')">Geel</a>
+          <a href="#" id="mijnGeel" onclick="changeColor('yellow')"
+            ><input type="radio" name="menu" />Geel</a
+          >
         </li>
         <li>
-          <a href="#" id="mijnPaars" onclick="changeColor('purple')">Paars</a>
+          <a href="#" id="mijnPaars" onclick="changeColor('purple')">
+            <input type="radio" name="menu" />Paars</a
+          >
         </li>
       </ul>
     </div>

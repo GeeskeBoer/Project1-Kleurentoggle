@@ -1,12 +1,12 @@
 li {
-  display: block;
-  border: 1px solid grey;
-  max-width: 100px;
+  width: 100px;
   padding-left: 10px;
+  display: block;
 }
 ul {
   padding-left: 0px;
   margin-top: 0px;
+  list-style-position: inside;
 }
 
 .btn-toggle-nav {
@@ -16,4 +16,20 @@ ul {
 }
 .dropDown {
   visibility: hidden;
+}
+
+#mijnHome {
+  background-color: white;
+}
+#mijnRood {
+  background-color: red;
+}
+#mijnBlauw {
+  background-color: blue;
+}
+#mijnGeel {
+  background-color: yellow;
+}
+#mijnPaars {
+  background-color: purple;
 }
